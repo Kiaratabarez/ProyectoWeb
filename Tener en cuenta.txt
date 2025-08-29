@@ -1,9 +1,0 @@
-Back con PHP
-Paleta de colores: Azul, rojo y gris que transmiten confianza y tecnología
-Colocar la imagen de fondo en el medio esn esta parte <main>
-        <section class="hero">
-            <div class="container">
-                <h2>TQComponents</h2>
-                <p>Tu tienda especializada en componentes Arduino</p>
-                <a href="productos.html" class="btn">Ver Productos</a>
-            </div>
