@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Listado de Productos (Tabla)</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    }
+
+    h1 {
+    margin-bottom: 20px;
+    }
+
+    table {
+    width: 100%;
+      border-collapse: collapse; /* Quita doble borde */
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    }
+
+    th {
+    background: #007bff;
+    color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background: #f9f9f9; /* Alterna color de filas */
+    }
+
+    img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Listado de Productos (Tabla)</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><img src="https://via.placeholder.com/100x80" alt="Producto 1"></td>
+        <td>Producto 1</td>
+        <td>Descripción breve del producto.</td>
+        <td>$1000</td>
+    </tr>
+    <tr>
+        <td><img src="https://via.placeholder.com/100x80" alt="Producto 2"></td>
+        <td>Producto 2</td>
+        <td>Descripción breve del producto.</td>
+        <td>$1500</td>
+    </tr>
+    <tr>
+        <td><img src="https://via.placeholder.com/100x80" alt="Producto 3"></td>
+        <td>Producto 3</td>
+        <td>Descripción breve del producto.</td>
+        <td>$2000</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
