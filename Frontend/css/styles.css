@@ -183,3 +183,71 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* Formulario de Compra */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-compra {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 6px solid #0077ff; /* Azul principal */
+}
+
+.form-compra h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+select[multiple] {
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+select[multiple]:focus {
+    border-color: #415164;
+    box-shadow: 0 0 8px rgba(0, 119, 255, 0.3);
+}
+
+.nota {
+    font-size: 12px;
+    color: #555;
+}
+
+.btn-comprar {
+    background: #e74c3c; /* Rojo para llamar la atención */
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background: #c0392b;
+}
+
+
