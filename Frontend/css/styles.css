@@ -250,4 +250,31 @@ select[multiple]:focus {
     background: #c0392b;
 }
 
+/*Volver atras*/
+.btn-volver {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background:#2c3e50;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    z-index: 1000; /* Para que quede por encima de todo */
+}
 
+.btn-volver img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-volver:hover {
+    background: #f0f0f0;
+    transform: scale(1.1);
+}
