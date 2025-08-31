@@ -3,47 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Listado de Productos</title>
-<style>
-    body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    padding: 20px;
-    }
-
-    h1 {
-    margin-bottom: 20px;
-    }
-
-    table {
-    width: 100%;
-      border-collapse: collapse; /* Quita doble borde */
-    background: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-
-    th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: center;
-    }
-
-    th {
-    background: #104258;
-    color: #fff;
-    }
-
-    tr:nth-child(even) {
-      background: #f9f9f9; /* Alterna color de filas */
-    }
-
-    img {
-    width: 80px;
-    height: auto;
-    border-radius: 5px;
-    }
-</style>
+<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body> <!-- botón volver al inicio-->
 <a href="javascript:history.back()" class="btn-volver">
     <img src="../Frontend/imagenes/home.svg" alt="Volver" width="20" height="20">
 </a>
@@ -64,8 +26,10 @@
                 </ul>
             </nav>
         </div>
-<h1>Listado de Productos</h1>
+</header>
 
+<main class="tabla-productos">
+    <h1>Listado de Productos</h1>
 <table>
     <thead>
     <tr>
@@ -114,6 +78,6 @@
     </tr>
     </tbody>
 </table>
-
+</main>
 </body>
 </html>
