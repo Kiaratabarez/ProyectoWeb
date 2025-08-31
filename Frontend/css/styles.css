@@ -143,7 +143,7 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-/* ----------------- LISTADO TABLA (listado_tabla.html) ----------------- */
+/*listado tipo tabla*/
 .tabla-productos {
     padding: 20px;
 }
@@ -177,7 +177,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* ----------------- LISTADO BOX (listado_box.html) ----------------- */
+/* listado tipo box*/
 .listado-box {
     padding: 20px;
 }
