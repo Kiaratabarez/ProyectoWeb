@@ -56,7 +56,7 @@ nav a:hover {
 }
 /*inicio(index)*/
 .hero{
-    background-image: url("../imagenes/imagenfondo.jpg"); 
+    background-image: url("../imagenes/imagenfondo3.JPG"); 
     background-size: cover;        
     background-position: center;   
     background-repeat: no-repeat;  
@@ -81,7 +81,7 @@ nav a:hover {
     font-size: 1.2rem;
     margin-bottom: 25px;
     color: #f9fafa;
-    text-shadow: 0 0 10px rgb(126, 228, 247);
+    text-shadow: 0 0 10px rgb(37, 47, 190);
 }
 
 .btn {
